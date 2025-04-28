@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family:"Inter", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #09090B;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,body,#root{
+  height: 100%;
+  width: 100%;
+}
+
+/* PhoneInput özelleştirmeleri */
+.react-tel-input .form-control {
+  @apply !w-full !text-gray-200 !bg-black/30 !border-0;
+}
+
+.react-tel-input .flag-dropdown {
+  @apply !bg-black/30 !border-0;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+  @apply !bg-black/40;
+}
+
+.react-tel-input .country-list {
+  @apply !bg-gray-800 !text-gray-200;
+}
+
+.react-tel-input .country-list .country:hover {
+  @apply !bg-gray-700;
+}
