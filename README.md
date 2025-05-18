@@ -9,7 +9,6 @@ A secure password manager application built with React and Node.js.
 - Password categories
 - Profile management
 - Account suspension
-- Admin panel
 
 ## Tech Stack
 
